@@ -1,0 +1,48 @@
+// Port A - UART7
+lpf2_platform_port_0
+    id1 = > bank = GPIOD, pin = 7  
+    id2 = > bank = GPIOD, pin = 8  
+    uart_buf = > bank = GPIOA, pin = 10 
+    uart_tx = > bank = GPIOE, pin = 8  
+    uart_rx = > bank = GPIOE, pin = 7  
+
+// Port B - UART4
+lpf2_platform_port_1
+    id1 = > bank = GPIOD, pin = 9  
+    id2 = > bank = GPIOD, pin = 10 
+    uart_buf = > bank = GPIOA, pin = 8  
+    uart_tx = > bank = GPIOD, pin = 1  
+    uart_rx = > bank = GPIOD, pin = 0  
+
+
+// Port C - UART8
+lpf2_platform_port_2
+    id1 = > bank = GPIOD, pin = 11 
+    id2 = > bank = GPIOE, pin = 4  
+    uart_buf = > bank = GPIOE, pin = 5  
+    uart_tx = > bank = GPIOE, pin = 1  
+    uart_rx = > bank = GPIOE, pin = 0  
+
+// Port D - UART5
+lpf2_platform_port_3
+    id1 = > bank = GPIOC, pin = 15 
+    id2 = > bank = GPIOC, pin = 14 
+    uart_buf = > bank = GPIOB, pin = 2  
+    uart_tx = > bank = GPIOC, pin = 12 
+    uart_rx = > bank = GPIOD, pin = 2  
+
+// Port E - UART10
+lpf2_platform_port_4
+    id1 = > bank = GPIOC, pin = 13 
+    id2 = > bank = GPIOE, pin = 12 
+    uart_buf = > bank = GPIOB, pin = 5  
+    uart_tx = > bank = GPIOE, pin = 3  
+    uart_rx = > bank = GPIOE, pin = 2  
+
+// Port F - UART9
+lpf2_platform_port_5
+    id1 > bank = GPIOC, pin = 11
+    id2 > bank = GPIOE, pin = 6
+    uart_buf > bank = GPIOC, pin = 5  
+    uart_tx > bank = GPIOD, pin = 15 
+    uart_rx > bank = GPIOD, pin = 14 
