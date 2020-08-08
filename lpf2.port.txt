@@ -1,10 +1,12 @@
 // Port A - UART7
 lpf2_platform_port_0
-    id1 = > bank = GPIOD, pin = 7, Pin.board = PD7
-    id2 = > bank = GPIOD, pin = 8, Pin.board = PD8  
-    uart_buf = > bank = GPIOA, pin = 10, Pin.board = PA10 
-    uart_tx = > bank = GPIOE, pin = 8, Pin.board = PE8   
-    uart_rx = > bank = GPIOE, pin = 7, Pin.board = PE7   
+    id1 > bank = GPIOD, pin = 7, Pin.board = PD7
+    id2 > bank = GPIOD, pin = 8, Pin.board = PD8  
+    uart_buf > bank = GPIOA, pin = 10, Pin.board = PA10 
+    uart_tx > bank = GPIOE, pin = 8, Pin.board = PE8   
+    uart_rx > bank = GPIOE, pin = 7, Pin.board = PE7
+    pwm_pin1 > bank = GPIOE, pin = 9, Pin.board = PE9
+    pwm_pin2 > bank = GPIOE, pin = 11, Pin.board = PE11
 
 // Port B - UART4
 lpf2_platform_port_1
@@ -12,7 +14,9 @@ lpf2_platform_port_1
     id2 = > bank = GPIOD, pin = 10, Pin.board = PD10  
     uart_buf = > bank = GPIOA, pin = 8, Pin.board = PA8   
     uart_tx = > bank = GPIOD, pin = 1, Pin.board = PD1   
-    uart_rx = > bank = GPIOD, pin = 0, Pin.board = PD0   
+    uart_rx = > bank = GPIOD, pin = 0, Pin.board = PD0
+    pwm_pin1 > bank = GPIOE, pin = 13, Pin.board = PE13
+    pwm_pin2 > bank = GPIOE, pin = 14, Pin.board = PE14
 
 
 // Port C - UART8
@@ -21,7 +25,9 @@ lpf2_platform_port_2
     id2 = > bank = GPIOE, pin = 4, Pin.board = PE4   
     uart_buf = > bank = GPIOE, pin = 5, Pin.board = PE5  
     uart_tx = > bank = GPIOE, pin = 1, Pin.board = PE1  
-    uart_rx = > bank = GPIOE, pin = 0, Pin.board = PE0   
+    uart_rx = > bank = GPIOE, pin = 0, Pin.board = PE0
+    pwm_pin1 > bank = GPIOB, pin = 6, Pin.board = PB6
+    pwm_pin2 > bank = GPIOB, pin = 7, Pin.board = PB7
 
 // Port D - UART5
 lpf2_platform_port_3
@@ -29,7 +35,9 @@ lpf2_platform_port_3
     id2 = > bank = GPIOC, pin = 14, Pin.board = PC14  
     uart_buf = > bank = GPIOB, pin = 2, Pin.board = PB2   
     uart_tx = > bank = GPIOC, pin = 12, Pin.board = PC12  
-    uart_rx = > bank = GPIOD, pin = 2,, Pin.board = PD2   
+    uart_rx = > bank = GPIOD, pin = 2,, Pin.board = PD2
+    pwm_pin1 > bank = GPIOB, pin = 8, Pin.board = PB8
+    pwm_pin2 > bank = GPIOB, pin = 9, Pin.board = PB9
 
 // Port E - UART10
 lpf2_platform_port_4
@@ -37,7 +45,9 @@ lpf2_platform_port_4
     id2 = > bank = GPIOE, pin = 12, Pin.board = PE12  
     uart_buf = > bank = GPIOB, pin = 5, Pin.board = PB5   
     uart_tx = > bank = GPIOE, pin = 3, Pin.board = PE3   
-    uart_rx = > bank = GPIOE, pin = 2, Pin.board = PE2   
+    uart_rx = > bank = GPIOE, pin = 2, Pin.board = PE2
+    pwm_pin1 > bank = GPIOC, pin = 6, Pin.board = PC6
+    pwm_pin2 > bank = GPIOC, pin = 7, Pin.board = PC7
 
 // Port F - UART9
 lpf2_platform_port_5
@@ -45,4 +55,6 @@ lpf2_platform_port_5
     id2 > bank = GPIOE, pin = 6, Pin.board = PE6
     uart_buf > bank = GPIOC, pin = 5, Pin.board = PC5   
     uart_tx > bank = GPIOD, pin = 15, Pin.board = PD15  
-    uart_rx > bank = GPIOD, pin = 14, Pin.board = PD14 
+    uart_rx > bank = GPIOD, pin = 14, Pin.board = PD14
+    pwm_pin1 > bank = GPIOC, pin = 8, Pin.board = PC8
+    pwm_pin2 > bank = GPIOB, pin = 1, Pin.board = PB1
