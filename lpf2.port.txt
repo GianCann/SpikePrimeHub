@@ -1,3 +1,7 @@
+Info collected from:
+https://github.com/pybricks/pybricks-micropython/blob/master/lib/pbio/drv/prime_hub/motor.c
+https://github.com/pybricks/pybricks-micropython/blob/master/lib/pbio/platform/prime_hub/platform.c
+
 // Port A - UART7
 lpf2_platform_port_0
     id1 > bank = GPIOD, pin = 7, Pin.board = PD7
