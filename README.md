@@ -4,11 +4,13 @@ Technical info about LEGO Spike Prime Hub
 Port pin mapping
 
 Port A (lpf2 id 0)  
-id1 > Pin.board = PD7  
-id2 > Pin.board = PD8  
-pwm_pin1 > Pin.board = PE9  
-pwm_pin2 > Pin.board = PE11  
-
+(6) id2 > Pin.board = PD8 (Serial RX)  
+(5) id1 > Pin.board = PD7 (Serial TX)  
+(4) Vcc 3.3v  
+(3) GND  
+(2) pwm_pin2 > Pin.board = PE11  
+(1) pwm_pin1 > Pin.board = PE9  
+  
 Port B (lpf2 id 1)  
 id1 > Pin.board = PD9    
 id2 > Pin.board = PD10  
