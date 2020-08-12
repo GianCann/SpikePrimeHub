@@ -2,6 +2,7 @@
 Technical info about LEGO Spike Prime Hub
 
 Port pin mapping
+(take a look here for the connector/port details: https://www.philohome.com/wedo2reverse/connect.htm )
 
 **Port A (lpf2 Port ID:0)**  
 (6) id2 > Pin.board = PD8 (Serial RX, Pin.board = PE7)  hub.port.A.dig1  
